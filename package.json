@@ -7,7 +7,7 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "test": "jest --watchAll",
-    "lint": "eslint . --ext .ts,.tsx,.js,.jsx,.json",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx,.json --max-warnings 0",
     "lint-and-fix": "eslint . --ext .ts,.tsx,.js,.jsx,.json --fix",
     "prettier-format": "prettier --config .prettierrc '**/*.{json,js,jsx,ts,tsx,css,scss,md}' --write"
   },
